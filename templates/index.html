@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Women Affair Predication</title>
+</head>
+<body>
+<div>
+    <h1>Women Affair Predication </h1>
+    <form action="/predict" method="POST">
+
+        <label for="women_occupation"> Women Occupation : </label>
+        <select name="women_occupation" id="women_occupation">
+            <option value="occ_2">occ_2</option>
+            <option value="occ_3">occ_3</option>
+            <option value="occ_4">occ_4</option>
+            <option value="occ_5">occ_5</option>
+            <option value="occ_6">occ_6</option>
+        </select><br><br>
+
+        <label for="husband_occupation"> Husband's Occupation  </label>
+        <select name="husband_occupation" id="hasbund_occupation">
+            <option value="occ_husb_2">occ_husb_2</option>
+            <option value="occ_husb_3">occ_husb_3</option>
+            <option value="occ_husb_4">occ_husb_4</option>
+            <option value="occ_husb_5">occ_husb_5</option>
+            <option value="occ_husb_6">occ_husb_6</option>
+        </select>
+
+        <br><br><label for="rate_marriage"> Rate Marriage  </label>
+        <select name="rate_marriage" id="rate_marriage">
+            <option value="one"> 1 </option>
+            <option value="two"> 2 </option>
+            <option value="three"> 3 </option>
+            <option value="four"> 4 </option>
+            <option value="five"> 5 </option>
+        </select>
+
+
+        <br><br><label>Age </label><input type="text" name="age" id="age" placeholder="Age">
+        <br><br><label> No. Years Married </label><input type="text" name="yrs_married" id="yrs_married" placeholder="Years Married">
+        <br><br><label>Children </label><input type="text" name="children" id="children" placeholder="Children">
+
+        <br><br><label for="religious"> Rating of Religious  </label>
+        <select name="religious" id="religious">
+            <option value="1"> 1 </option>
+            <option value="2"> 2 </option>
+            <option value="3"> 3 </option>
+            <option value="4"> 4  </option>
+        </select>
+
+        <!-- <br><br><label for="new_rel">New Rel </label>
+        <select id="new_rel" name="new_rel">
+            <option value="1"> 1 </option>
+        </select> -->
+
+        <br><br><label for="education"> Education  </label>
+        <select name="education" id="education">
+            <option value="grade_school"> 9 grade school </option>
+            <option value="high_school"> 12 high school </option>
+            <option value="some_collage"> 14 some college </option>
+            <option value="collage_graduate"> 16 college graduate  </option>
+            <option value="some_graduate_school"> 17 some graduate school </option>
+            <option value="advanced_degree"> 20 advanced degree </option>
+        </select>
+
+        <br><br><input type="submit" value="Predict">
+
+    </form>
+</div>
+
+</body>
+</html>
